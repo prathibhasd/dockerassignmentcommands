@@ -1,0 +1,16 @@
+18  sudo docker images
+   19  sudo docker tag assignment2 intellipaatsai/assignment3
+   20  sudo docker images
+   21  sudo docker login
+   22  sudo docker push intellipaatsai/assignment3
+   New Instance
+    1  sudo apt update
+    2  sudo apt install docker.io -y
+    3  sudo docker pull intellipaatsai/assignment3
+    4  sudo docker images
+    5  sudo docker run -itd -p 80:80 intellipaatsai/assignment3
+    6  sudo docker ps
+    7  sudo docker exec -it 5908bdcf48ef bash
+   Inside container
+   service apache2 status
+   service apache2 start
