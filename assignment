@@ -1,0 +1,29 @@
+A-1
+    1  sudo apt update
+    2  sudo apt install docker.io -y
+    3  sudo docker pull ubuntu
+    4  sudo docker run -itd -p 80:80 ubuntu
+    5  sudo docker ps
+    6  history
+    7  sudo docker exec -it 03e48230f482 bash
+    Inside container
+    apt update
+    apt install apache2 -y
+    service apache2 status
+    service apache2 start
+    service apache2 status
+    
+A-2
+    9  sudo docker ps
+   10  sudo docker commit 03e48230f482 assignment2
+   11  sudo docker imaes
+   12  sudo docker images
+   13  sudo docker run -itd -p 81:80 assignment2
+   14  docker ps 
+   15  sudo docker ps 
+   16  sudo docker exec -it 85b2b2e3ae2c bash
+    Inside container
+    service apache2 status
+    service apache2 start
+    service apache2 status
+    
