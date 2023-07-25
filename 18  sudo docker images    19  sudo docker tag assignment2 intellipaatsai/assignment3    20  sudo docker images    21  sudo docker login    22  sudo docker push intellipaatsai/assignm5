@@ -1,0 +1,7 @@
+ sudo nano Dockerfile
+   26  sudo nano index.html
+   27  ls
+   28  sudo nano Dockerfile
+   29  sudo docker build . -t assignment5
+   30  sudo docker images
+   31  sudo docker run -itd -p 83:80 assignment5
